@@ -21,6 +21,27 @@ This project simulates a secure enterprise network environment using **pfSense**
 ---
 
 ## 🛡️ Firewall Rules Summary
+- **LAN to Internet**:
+    
+    LAN users can browse the web and access the Internet freely.
+    
+- **LAN to DMZ**:
+    
+    LAN users can only reach the DMZ web server through **HTTP (port 80)**.
+    
+    All other types of access (like ping, SSH, or file sharing) are blocked.
+    
+- DMZ to Internet:
+  
+  DMZ servers can access the Internet for things like software updates, but only on safe ports like **HTTP/HTTPS**.
+
+- **DMZ to LAN**:
+
+  DMZ servers are **not allowed** to talk to the LAN at all, for security reasons.
+  
+- **Internet to LAN/DMZ**:
+
+  People from the Internet can't access anything inside the LAN or DMZ, unless specific access is set up.
 
 ---
 
