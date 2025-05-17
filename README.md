@@ -99,6 +99,8 @@ pfSense terminal interface showing assigned interfaces and their respective IP a
 
 ## 📚 What I Learned
 
+- pfSense is a great open-source firewall and router to use. As well its beneficial to know a recommended and industry used software.
+- I gain more knowledge on configuration processes through different interfaces
+- I learned that firewall rules control everything. Essentially if routing is perfect pfSesne policies can still dictate traffic
 ---
 
-## 🔥 Future Improvements
